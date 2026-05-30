@@ -1,0 +1,44 @@
+Analyzing Ben Iyiyim...                                         
+
+   info - Don't invoke 'print' in production code. Try using a logging framework - clean_injectable.dart:25:7 - avoid_print
+warning - The value of the field '_fcmService' isn't used. Try removing the field, or using it - lib\features\auth\presentation\bloc\auth_bloc.dart:22:20 - unused_field
+warning - The value of the field '_firestoreService' isn't used. Try removing the field, or using it - lib\features\auth\presentation\bloc\auth_bloc.dart:23:26 - unused_field
+warning - The member 'emit' can only be used within 'package:bloc/src/bloc.dart' or a test - lib\features\auth\presentation\bloc\auth_bloc.dart:51:11 - invalid_use_of_visible_for_testing_member
+warning - The member 'emit' can only be used within 'package:bloc/src/bloc.dart' or a test - lib\features\auth\presentation\bloc\auth_bloc.dart:56:11 - invalid_use_of_visible_for_testing_member
+warning - Unused import: '../../../../core/theme/app_text_styles.dart'. Try removing the import directive - lib\features\auth\presentation\screens\login_screen.dart:7:8 - unused_import
+   info - The private field _agreeToTerms could be 'final'. Try making the field 'final' - lib\features\auth\presentation\screens\login_screen.dart:29:8 - prefer_final_fields
+warning - The value of the field '_agreeToTerms' isn't used. Try removing the field, or using it - lib\features\auth\presentation\screens\login_screen.dart:29:8 - unused_field
+   info - Unnecessary use of double quotes. Try using single quotes unless the string contains single quotes - lib\features\auth\presentation\screens\register_screen.dart:290:29 - prefer_single_quotes
+warning - Unused import: '../../../../core/theme/app_text_styles.dart'. Try removing the import directive - lib\features\auth\presentation\screens\splash_screen.dart:8:8 - unused_import
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\features\auth\presentation\screens\splash_screen.dart:50:13 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\features\auth\presentation\screens\splash_screen.dart:52:13 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\auth\presentation\screens\splash_screen.dart:100:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\auth\presentation\screens\splash_screen.dart:102:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\auth\presentation\screens\splash_screen.dart:112:23 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\auth\presentation\screens\splash_screen.dart:114:32 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\auth\presentation\screens\splash_screen.dart:149:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\auth\presentation\screens\splash_screen.dart:151:26 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\auth\presentation\screens\splash_screen.dart:153:28 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes. Try adding 'const' before the literal - lib\features\auth\presentation\screens\splash_screen.dart:155:33 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\auth\presentation\screens\splash_screen.dart:156:25 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes. Try adding 'const' before the literal - lib\features\auth\presentation\screens\splash_screen.dart:158:37 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\auth\presentation\screens\splash_screen.dart:159:29 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\auth\presentation\screens\splash_screen.dart:161:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\auth\presentation\screens\splash_screen.dart:177:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\auth\presentation\screens\splash_screen.dart:179:34 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\contacts\presentation\screens\contacts_screen.dart:214:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\contacts\presentation\screens\contacts_screen.dart:248:21 - prefer_const_constructors
+warning - This default clause is covered by the previous cases. Try removing the default clause, or restructuring the preceding patterns - lib\features\emergency\data\models\emergency_status_model.dart:52:7 - unreachable_switch_default
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\emergency\presentation\screens\alert_sending_screen.dart:81:15 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\features\emergency\presentation\screens\alert_sending_screen.dart:83:24 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes. Try adding 'const' before the literal - lib\features\emergency\presentation\screens\alert_sending_screen.dart:84:29 - prefer_const_literals_to_create_immutables
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\features\emergency\presentation\screens\home_screen.dart:204:55 - use_build_context_synchronously
+warning - Unused import: '../../../../core/theme/app_colors.dart'. Try removing the import directive - lib\features\emergency\presentation\widgets\emergency_button.dart:3:8 - unused_import
+warning - Unused import: '../../../../core/theme/app_text_styles.dart'. Try removing the import directive - lib\features\emergency\presentation\widgets\emergency_button.dart:4:8 - unused_import
+   info - Use 'const' for final variables initialized to a constant value. Try replacing 'final' with 'const' - lib\features\emergency\presentation\widgets\emergency_button.dart:74:5 - prefer_const_declarations
+   info - Use 'const' for final variables initialized to a constant value. Try replacing 'final' with 'const' - lib\features\emergency\presentation\widgets\emergency_button.dart:75:5 - prefer_const_declarations
+warning - Unused import: 'dart:math'. Try removing the import directive - lib\features\emergency\presentation\widgets\seismic_wave_painter.dart:1:8 - unused_import
+warning - Unused import: 'core/services/fcm_service.dart'. Try removing the import directive - lib\main.dart:11:8 - unused_import
+   info - 'textScaleFactor' is deprecated and shouldn't be used. Use textScaler instead. Use of textScaleFactor was deprecated in preparation for the upcoming nonlinear text scaling support. This feature was deprecated after v3.12.0-2.0.pre. Try replacing the use of the deprecated member with the replacement - lib\main.dart:115:40 - deprecated_member_use
+warning - The class 'DocumentSnapshot' shouldn't be extended, mixed in, or implemented because it's sealed. Try composing instead of inheriting, or refer to the documentation of 'DocumentSnapshot' for more information - test\test_models.dart:14:1 - subtype_of_sealed_class
+

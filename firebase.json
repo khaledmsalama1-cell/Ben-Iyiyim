@@ -1,0 +1,22 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "earthquakdb",
+                    "appId": "1:335367935384:android:7a6aeac4eac2ce51fd47ed",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "earthquakdb",
+                    "configurations": {
+                        "android": "1:335367935384:android:7a6aeac4eac2ce51fd47ed",
+                        "ios": "1:335367935384:ios:c2405b0aa22f0d2bfd47ed"
+                    }
+                }
+            }
+        }
+    }
+}

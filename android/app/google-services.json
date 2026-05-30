@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "335367935384",
+    "firebase_url": "https://earthquakdb-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "earthquakdb",
+    "storage_bucket": "earthquakdb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335367935384:android:7a6aeac4eac2ce51fd47ed",
+        "android_client_info": {
+          "package_name": "com.beniyiyim.ben_iyiyim"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-hAtxpjciMFpWQaOlFQMrD6PskX0FpZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335367935384:android:e8b7861c48c46829fd47ed",
+        "android_client_info": {
+          "package_name": "com.earthquakapp.earth_quakapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-hAtxpjciMFpWQaOlFQMrD6PskX0FpZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

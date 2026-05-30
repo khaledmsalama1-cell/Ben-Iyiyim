@@ -1,0 +1,14 @@
+import 'package:dartz/dartz.dart';
+import '../../../../core/errors/failures.dart';
+import '../repositories/auth_repository.dart';
+
+/// Use case: Sign out current user
+class SignOutUseCase {
+  final AuthRepository _repository;
+
+  const SignOutUseCase(this._repository);
+
+  Future<Either<Failure, void>> call() {
+    return _repository.signOut();
+  }
+}
