@@ -2,6 +2,20 @@
 
 Ben İyiyim (I'm Fine) is a crucial emergency communication application built with Flutter, designed to facilitate rapid communication during earthquakes and natural disasters. The app allows users to quickly notify their predefined contacts about their safety status with a single tap, bypassing congested networks and keeping loved ones informed during crises.
 
+## 📱 Screenshots
+
+<div align="center">
+  <img src="designs/SplashScreen.png" width="200" />
+  <img src="designs/Login%20Screen.png" width="200" />
+  <img src="designs/Sign%20Up%20Screen.png" width="200" />
+  <img src="designs/Emergency%20SOS%20Screen.png" width="200" />
+  <img src="designs/Alert%20Sending%20Screen.png" width="200" />
+  <img src="designs/Status%20Update%20Screen.png" width="200" />
+  <img src="designs/Contact%20Setup%20Screen.png" width="200" />
+  <img src="designs/Alert%20History.png" width="200" />
+  <img src="designs/Settings.png" width="200" />
+</div>
+
 ## 🚀 Features
 
 - **Quick Status Updates**: Instantly broadcast your safety status to all registered emergency contacts.
